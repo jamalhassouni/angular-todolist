@@ -9,7 +9,6 @@ export class AppComponent {
   title:string = 'todolist';
 
   constructor(){
-    console.log(" hello "+this.title)
     this.changeTitle("jamal")
   }
 
